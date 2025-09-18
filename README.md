@@ -2,7 +2,7 @@
 
 ### \*SuperDataScience: Course Project for: **Artificial Intelligence A-Z: Build an AI with ChatGPT4\***
 
-> 🚀 Train a Deep Q-Network (DQN) from scratch using PyTorch to autonomously land a spacecraft in OpenAI’s classic `LunarLander-v3` environment — now maintained under **Gymnasium (Farama Foundation)**. Includes full training, evaluation, and video recording/playback for Jupyter Notebook and Google Colab.
+> 🚀 Train a Deep Q-Network (DQN) from scratch using PyTorch to autonomously land a spacecraft in OpenAI’s classic `LunarLander-v3` environment — now maintained under **Gymnasium (Farama Foundation)**. Includes full training, evaluation, and video recording/playback for Google Colab.
 
 ---
 
@@ -12,7 +12,7 @@ This repository implements a **Deep Q-Learning agent** to solve the `LunarLander
 
 According to the [official Gymnasium documentation](https://gymnasium.farama.org/environments/box2d/lunar_lander/), an episode is **consigdered solved** when the agent achieves an **average reward of 200 or more over 100 consecutive episodes**.
 
-This project is designed as a hands-on implementation for students of the course **“Artificial Intelligence A-Z: Build an AI with ChatGPT4”**, providing a complete, self-contained, and well-documented example of deep reinforcement learning in action.
+This project is a complete, self-contained implementation of deep reinforcement learning in action — training a Deep Q-Network from scratch to master the LunarLander-v3 environment using PyTorch, with full video recording and performance visualization.
 
 ---
 
@@ -94,7 +94,7 @@ An episode ends if any of the following occur:
 
 ## 🎥 Video Recording & Playback
 
-The trained agent’s performance is recorded and displayed inline in Jupyter/Colab:
+The trained agent’s performance is recorded and displayed inline in Colab:
 
 1. Environment is re-initialized with `render_mode='rgb_array'`.
 2. At each step, `env.render()` returns a frame (H×W×3 numpy array).
