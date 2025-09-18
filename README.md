@@ -10,7 +10,7 @@
 
 This repository implements a **Deep Q-Learning agent** to solve the `LunarLander-v3` environment, which simulates the challenge of landing a lunar module safely on the moon’s surface using discrete thruster controls. The agent must learn when to fire its main engine or left/right orientation thrusters to control descent velocity, angle, and lateral drift — all while minimizing fuel consumption.
 
-According to the [official Gymnasium documentation](https://gymnasium.farama.org/environments/box2d/lunar_lander/), an episode is **considered solved** when the agent achieves an **average reward of 200 or more over 100 consecutive episodes**.
+According to the [official Gymnasium documentation](https://gymnasium.farama.org/environments/box2d/lunar_lander/), an episode is **consigdered solved** when the agent achieves an **average reward of 200 or more over 100 consecutive episodes**.
 
 This project is designed as a hands-on implementation for students of the course **“Artificial Intelligence A-Z: Build an AI with ChatGPT4”**, providing a complete, self-contained, and well-documented example of deep reinforcement learning in action.
 
